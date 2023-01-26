@@ -1,0 +1,23 @@
+@import '../../../../../common.styl'
+
+.row
+  min-height 64px
+  display flex
+  justify-content space-around
+  width 100%
+
+  div
+    display flex
+    align-items center
+    justify-content center
+    width inherit
+
+    div
+      width 80%
+
+    &:last-child div
+      width 100%
+
+.orderNumber
+  font-weight 500
+  color $primary-dark
